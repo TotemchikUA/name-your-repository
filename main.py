@@ -1,1 +1,1 @@
-print
+print("Kill moscowits every day")
