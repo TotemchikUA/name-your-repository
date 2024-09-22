@@ -78,7 +78,7 @@ class Student:
         elif self.gladness == 0:
             print("You was jamped intro the Window")
             self.alive = False
-        elif self.stamina = 0:
+        elif self.stamina == 0:
             print("You was martyred")
             self.alive = False
     def end_of_day(self):
@@ -89,12 +89,12 @@ class Student:
         day = "Day" + str(day) + "of" + self.name + "life"
         print(f"{day:=^50}")
 
-        live.cube = random.randint(1, 3)
-         if live.cube == 1:
+        live_cube = random.randint(1, 3)
+        if live_cube == 1:
             self.to_study()
-         elif live.cube == 2:
+         elif live_cube == 2:
             self.to_sleep()
-         elif live.cube == 3:
+         elif live_cube == 3:
             self.to_chill()
 
 pasha = Student(name = "Pasha")
